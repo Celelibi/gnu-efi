@@ -165,8 +165,6 @@ Returns:
 
     if (!*Buffer && BufferSize) {
         *Status = EFI_BUFFER_TOO_SMALL;
-    } else {
-	*Status = EFI_SUCCESS;
     }
 
     //
